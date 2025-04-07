@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 import LaunchPadProps from '@/types/index'
 
 import { Crimson_Text} from 'next/font/google';
@@ -15,8 +15,8 @@ const crimson = Crimson_Text({
 const LaunchPad: React.FC<LaunchPadProps> = ({
   title,
   description,
-  ctaText,
-  ctaLink,
+//   ctaText,
+//   ctaLink,
   imageSrc,
   imageAlt,
 }) => {

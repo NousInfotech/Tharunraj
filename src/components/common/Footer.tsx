@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
   const headingClasses = "text-xl mb-4 text-[var(--primary-text)] font-[var(--font-weight-bold)]";
 
   return (
-    <footer className="bg-[var(--primary-bg)] rounded-2xl mx-8 mb-10 text-[var(--light-bg)] py-8 px-4 md:px-12">
+    <footer className="bg-[var(--primary-bg)] rounded-2xl md:mx-8 mb-10 text-[var(--light-bg)] py-8 px-4 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Left Section - Logo and Description */}
@@ -140,7 +140,7 @@ const Footer: React.FC = () => {
         
         {/* Bottom Links */}
         <div className="border-t border-amber-700 mt-8 pt-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-20 text-[var(--font-size-sm)]">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4 md:gap-20 text-[var(--font-size-sm)]">
             {policyLinks.map((policy, index) => (
               <Link key={index} href={policy.href} className={linkClasses}>
                 {policy.label}
@@ -149,8 +149,10 @@ const Footer: React.FC = () => {
           </div>
           
           <div className="text-center mt-6 text-[var(--font-size-sm)]">
-            © {new Date().getFullYear()} Tharun's Brainery. All Rights Reserved.
-          </div>
+          &copy; {new Date().getFullYear()} Tharun&apos;s Brainery. All Rights Reserved.
+</div>
+
+
         </div>
       </div>
     </footer>

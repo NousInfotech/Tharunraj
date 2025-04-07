@@ -25,7 +25,7 @@ export const SuccessPathBanner: React.FC<SuccessPathBannerProps> = ({
   return (
     <div className="w-full flex justify-center my-16 px-4">
       <section
-        className="w-full max-w-7xl py-10 px-6 md:px-12 mx-4 rounded-xl font-[var(--font-family)]"
+        className="w-full max-w-7xl py-10 px-6 md:px-12 md:mx-4  rounded-xl font-[var(--font-family)]"
         style={{ backgroundColor }}
       >
         <div className="container mx-auto max-w-4xl">

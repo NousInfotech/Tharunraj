@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Crimson_Text, Poppins } from 'next/font/google';
+import {  Poppins } from 'next/font/google';
 import "./globals.css";
 import Navbar from "@/components/common/Navbar";
 import Footer from "@/components/common/Footer";

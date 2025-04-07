@@ -1,6 +1,5 @@
 import React from 'react'
 import LaunchPad from './LaunchPad'
-import { images } from '../../../public/assets'
 import features from '@/JSON//features.json';
 import { WhyChooseComponent } from './WhyChooseComponent';
 import { SuccessPathBanner } from './SuccessPathBanner';
