@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
   const headingClasses = "text-xl mb-4 text-[var(--primary-text)] font-[var(--font-weight-bold)]";
 
   return (
-    <footer className="bg-[var(--primary-bg)] rounded-2xl md:mx-8 mb-10 text-[var(--light-bg)] py-8 px-4 md:px-12">
+    <footer className="bg-[var(--primary-bg)] rounded-2xl mx-4 md:mx-8 mb-10 text-[var(--light-bg)] py-8 px-4 md:px-12">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Left Section - Logo and Description */}
