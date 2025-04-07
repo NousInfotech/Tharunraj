@@ -3,6 +3,29 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  /* Primary Colors */
+  --primary-bg: #894520;
+  --primary-text: #C87B45;
+
+  /* Gradient Background */
+  --primary-gradient: linear-gradient(90deg, #894520 0%, #C87B45 100%);
+
+  /* Secondary / Utility Backgrounds */
+  --dark-bg: #1B1B1B;
+  --light-bg: #F8F8F8;
+  --peach-bg: #F4D7C6;
+  --gray-bg: #D9D9D9;
+
+  /* Typography */
+  --font-family: 'Poppins', sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --font-size-lg: 20px;
+  --font-size-sm: 16px;
+
+  --line-height-base: 100%;
+  --letter-spacing-base: 0%;
 }
 
 @theme inline {
@@ -12,15 +35,15 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ededed;
+    --foreground: #0a0a0a ;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:var(--font-family);
 }
