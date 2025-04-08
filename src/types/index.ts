@@ -5,6 +5,7 @@ export default interface LaunchPadProps {
   ctaLink: string;
   imageSrc: string;
   imageAlt: string;
+  logo: string;
 }
 
 export default interface SuccessPathBannerProps {

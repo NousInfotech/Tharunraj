@@ -5,7 +5,6 @@ import { WhyChooseComponent } from './WhyChooseComponent';
 import { SuccessPathBanner } from './SuccessPathBanner';
 
 
-
 export default function LandingPage() {
   return (
     <div>
@@ -16,11 +15,12 @@ export default function LandingPage() {
     ctaLink="/apply"
     imageSrc="/assets/images/ca-foundation.jpg"
     imageAlt="CA Foundation Course"
+    logo=''
   />
   <WhyChooseComponent
   title="Why Choose CA Foundation Launch Pad?"
   features={features}
-  imageSrc="/assets/images/ca-foundation-students.jpg"
+  imageSrc=""
   imageAlt="CA Foundation Students"
 />
 <SuccessPathBanner

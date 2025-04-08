@@ -98,14 +98,16 @@ const Navbar: React.FC = () => {
     >
       <div className="container mx-auto flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center">
-          <Image 
-            src={images.png.logo}
-            alt="Tharun's Brainery Logo" 
-            width={135}
-            height={63}
-            className="mr-2"
-          />
+        <Link href="/" className="flex items-center relative w-[130px] h-[63px] sm:w-[150px] sm:h-[75px] lg:w-[190px] lg:h-[90px]">
+       
+  <Image
+    src={images.png.logo}
+    alt="Tharun's Brainery Logo"
+    fill
+    className="object-contain"
+  />
+
+
         </Link>
 
         {/* Desktop Menu */}
