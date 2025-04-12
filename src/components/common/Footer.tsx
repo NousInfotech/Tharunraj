@@ -10,12 +10,12 @@ const Footer: React.FC = () => {
   // Menu items data
   const menuItems = [
     { label: 'Home', href: '/' },
-    { label: 'Books & Video Lectures', href: '/books-lectures' },
-    { label: 'MCQ Test', href: '/mcq-test' },
-    { label: 'F2F Classes', href: '/f2f-classes' },
-    { label: 'Downloads', href: '/downloads' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Contact Us', href: '/contact' }
+    // { label: 'Books & Video Lectures', href: '/books-lectures' },
+    // { label: 'MCQ Test', href: '/mcq-test' },
+    // { label: 'F2F Classes', href: '/f2f-classes' },
+    // { label: 'Downloads', href: '/downloads' },
+    // { label: 'Blog', href: '/blog' },
+    // { label: 'Contact Us', href: '/contact' }
   ];
 
   // Social media links data
@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
     },
     { 
       icon: MdEmail, 
-      content: <p className="hover:text-[var(--peach-bg)]">admin@tharunraj.com</p> 
+      content: <p className="hover:text-[var(--peach-bg)]">admin@tharunsbrainery.com</p> 
     },
     { 
       icon: MdLocationOn, 
@@ -71,17 +71,17 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Image 
-                src={images.png.logof} 
+                src={images.png.logo} 
                 alt="Tharun's Brainery Logo" 
-                width={160} 
-                height={63} 
+                width={190} 
+                height={93} 
                 className="object-cover" 
               />
             </div>
             <p className="text-[var(--font-size-sm)] font-medium">Coaching For CA / CMA</p>
             
             <p className="text-[var(--font-size-sm)] mt-4">
-              We support professional students by providing HD Quality Course videos of 
+              We support professional students by providing classes of 
               the best faculties in the subject & Handcrafted Exam related books 
               authored by those faculties at all levels, and also arrange mock tests for them.
             </p>

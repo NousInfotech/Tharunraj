@@ -3,24 +3,25 @@ import LaunchPad from './LaunchPad'
 import features from '@/JSON//features.json';
 import { WhyChooseComponent } from './WhyChooseComponent';
 import { SuccessPathBanner } from './SuccessPathBanner';
+import { images } from '../../../public/assets';
 
 
 export default function LandingPage() {
   return (
     <div>
     <LaunchPad 
-    title="CA Foundation Launch Pad!"
-    description="The CA Foundation is the first and most important step in your CA journey—where your path to success begins. The name Launch Pad reflects exactly that: it's where we build your strong foundation, focusing on essential concepts for your future studies and giving you an exam-oriented approach for quick results. At Tharun's Brainery, we ensure you not only understand the fundamentals but are also fully prepared for your exams. With our structured approach, we'll launch you toward success and prepare you to take on the challenges of the CA journey ahead!"
+    title="CA & CMA Foundation Launch Pad!"
+    description="The CA & CMA Foundation is the first and most important step in your Commerce journey—where your path to success begins. The name Launch Pad reflects exactly that: it's where we build your strong foundation, focusing on essential concepts for your future studies and giving you an exam-oriented approach for quick results. At Tharun's Brainery, we ensure you not only understand the fundamentals but are also fully prepared for your exams. With our structured approach, we'll launch you toward success and prepare you to take on the challenges of the CA & CMA journey ahead!"
     ctaText="Apply Now"
     ctaLink="/apply"
-    imageSrc="/assets/images/ca-foundation.jpg"
+    imageSrc={images.png.img1.src}
     imageAlt="CA Foundation Course"
     logo=''
   />
   <WhyChooseComponent
-  title="Why Choose CA Foundation Launch Pad?"
+  title="Why Choose CA & CMA Foundation Launch Pad?"
   features={features}
-  imageSrc=""
+  imageSrc={images.png.img3.src}
   imageAlt="CA Foundation Students"
 />
 <SuccessPathBanner
